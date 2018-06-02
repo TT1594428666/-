@@ -18,6 +18,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"测试是否成功");
+    
+    
+    UILabel *lb = [[UILabel alloc]initWithFrame:CGRectMake(50, 50, 100, 20)];
+    lb.text = @"hello github!!";
+    [self.view addSubview:lb];
 }
 
 
