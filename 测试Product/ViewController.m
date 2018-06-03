@@ -23,6 +23,10 @@
     UILabel *lb = [[UILabel alloc]initWithFrame:CGRectMake(50, 50, 100, 20)];
     lb.text = @"hello github!!";
     [self.view addSubview:lb];
+    
+    UILabel *lb2 = [[UILabel alloc]initWithFrame:CGRectMake(50, 50, 100, 20)];
+    lb2.text = @"hello github!!";
+    [self.view addSubview:lb2];
 }
 
 
