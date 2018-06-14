@@ -27,6 +27,12 @@
     UILabel *lb2 = [[UILabel alloc]initWithFrame:CGRectMake(50, 50, 100, 20)];
     lb2.text = @"hello github!!";
     [self.view addSubview:lb2];
+    
+    
+    //2018/06/14
+    
+    NSLog(@"今天天气凉爽，云天");
+    
 }
 
 
